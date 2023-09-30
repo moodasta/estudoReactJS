@@ -1,0 +1,22 @@
+* { /* Aplica as configurações para todos os conteúdos */
+    margin: 0px; /* Espaçamento interno */
+    padding: 0px; /* Espaçamento externo */
+    box-sizing: border-box; /*Calcular larguras e alturas dos elementos*/
+}
+
+.container { /* Tem ponto por ser classe*/
+    background: yellow;
+}
+
+.menu {
+    list-style: none; /* Define o tipo de lista */
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex; /* Disposição dos elementos */
+    justify-content: center;
+    padding: 10px;
+}
+
+.menu li {
+    margin: 10px;
+}
